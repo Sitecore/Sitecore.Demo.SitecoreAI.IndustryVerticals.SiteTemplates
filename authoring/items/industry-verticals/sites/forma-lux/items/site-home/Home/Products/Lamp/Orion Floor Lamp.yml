@@ -12,6 +12,10 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: LMP0004
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/96fbab97f1bb40848acf3e3fbff09b35?v=1f8bf997" dam-id="ZEZTCqo7T1CXNBewA5UNYQ" width="665" height="665" alt="orion-floor-lamp-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79491/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: |
@@ -39,7 +43,7 @@ SharedFields:
   Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7aa29ec6-3a73-4848-863d-f376c5b7e9c3"
+  Value: "7ef7a8ed-ca4c-4218-8b5f-366616482e24"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -94,17 +98,17 @@ Languages:
       Value: Illuminate your space with the Orion Floor Lamp by Forma Lux – a tall, sleek metal design with an adjustable head that provides focused light for reading or relaxation.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9241031d-e04b-47fc-ba8e-dde8a58fa9d8"
+      Value: "bfe3e0c2-a623-46ec-93e6-71247fa1a5b0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Orion Floor Lamp
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082509Z
+      Value: 20260313T093711Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Orion Floor Lamp features a slim, minimalist design with an adjustable head for directional lighting. Perfect for reading corners or modern living rooms.</p>

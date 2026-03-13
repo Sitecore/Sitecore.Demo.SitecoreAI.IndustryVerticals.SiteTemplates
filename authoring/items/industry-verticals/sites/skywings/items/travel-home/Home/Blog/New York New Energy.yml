@@ -27,7 +27,7 @@ SharedFields:
     <image mediaid="{F7EDE8F0-5337-4DB2-A584-15DB2503B703}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a8f211f8-82a0-4f55-9492-ddef08a7f9a6"
+  Value: "3df4b78a-9e86-4224-a482-f80fb434dc73"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -36,15 +36,7 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{B83463B9-1243-4ADE-A078-6965188ABD9C}"
-          p:before="*"
-          s:ds="023c2129-aa22-4399-9dbf-91f5b167c78e"
-          s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC18CFAB6-BFD2-4347-BB31-F8A152627344%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
-          s:ph="/headless-main/article-details-1" />
-        <r
           uid="{18C56967-42A6-480D-A652-C5A5C9F2E5CE}"
-          p:after="*[1=2]"
           s:ds="af2b4fe7-ed5e-4a65-9fe1-e0165ec1cd3c"
           s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B7E568908-849F-43BB-9174-EBF50749E19F%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
@@ -93,7 +85,7 @@ Languages:
       Value: 6 min
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "29f1be31-7459-4767-b0ce-56f6366a515d"
+      Value: "ec20e441-573a-4d31-b466-945db837a4a9"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "New York, New Energy: Rediscovering the City That Never Sleeps"
@@ -103,10 +95,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T093043Z
+      Value: 20260312T162147Z
     - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
       Hint: Likes
       Value: 56

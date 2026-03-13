@@ -27,7 +27,7 @@ SharedFields:
     <image mediaid="{5955BC45-3041-440C-94B9-0CA4B9DE57FD}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a84f30a2-e050-499e-a169-0a9020aa2469"
+  Value: "893b2cd3-f803-4241-a578-2fd33eaec18e"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -36,15 +36,7 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{EDB1E716-08D4-4824-8175-2D9EFE53BBE2}"
-          p:before="*"
-          s:ds="023c2129-aa22-4399-9dbf-91f5b167c78e"
-          s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC18CFAB6-BFD2-4347-BB31-F8A152627344%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
-          s:ph="/headless-main/article-details-1" />
-        <r
           uid="{7F4BDDFF-1C2A-4712-8388-C0CE0A7D2B21}"
-          p:after="*[1=2]"
           s:ds="af2b4fe7-ed5e-4a65-9fe1-e0165ec1cd3c"
           s:id="{32E7FD88-4E5D-4AAB-A15F-61DCEBA1EE6F}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B7E568908-849F-43BB-9174-EBF50749E19F%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
@@ -94,7 +86,7 @@ Languages:
       Value: 5 min
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "81b80634-7913-41d7-9bcc-e33f26fea632"
+      Value: "97a09b5c-e1a6-481b-9a0b-2f21d4216811"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
       Value: "Tokyo After Dark: A Food Lover's Guide to Night Markets"
@@ -104,10 +96,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T093043Z
+      Value: 20260312T162915Z
     - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
       Hint: Likes
       Value: 12

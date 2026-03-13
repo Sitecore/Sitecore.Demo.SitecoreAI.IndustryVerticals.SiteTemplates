@@ -14,6 +14,10 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: PLW0001
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79571-HomepagePromoCTAs-1100x740?v=d5454e97" dam-id="q3dLvWH8TyWWkX-AdXVqvA" width="1100" height="740" alt="pilspinnare-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79571/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: "{12BF3FA0-8034-4629-814C-3E34BEE11474}"
@@ -39,7 +43,7 @@ SharedFields:
   Value: "{95692043-DF4D-4E60-9271-511BE5096297}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "10c367d2-a834-4fb0-9f83-a69fb3b20d2d"
+  Value: "8d1fbaeb-44be-4d19-8266-51cbfff2fdeb"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -48,22 +52,7 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{58DE8D1B-A3A4-4091-B4F6-A4623E7518FB}"
-          p:before="*"
-          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
-          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
-          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=1&amp;Loop=0"
-          s:ph="/headless-main/sxa-product-content/related-products-2" />
-        <r
-          uid="{740C0E4E-2D84-4575-A4CF-9398F3879E72}"
-          p:after="r[@uid='{58DE8D1B-A3A4-4091-B4F6-A4623E7518FB}']"
-          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
-          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
-          s:ph="/headless-main/sxa-product-content-test/related-products-1" />
-        <r
           uid="{E7FAEB95-9BC5-45E7-9D99-389A2A9461E6}"
-          p:after="*[1=2]"
           s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
           s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
@@ -113,17 +102,17 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "481e1172-6f95-4864-bc9a-33159babad81"
+      Value: "8d435a00-a152-4da9-89c8-b6eee80c0741"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Pilspinnare
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082510Z
+      Value: 20260313T092432Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>Discover unparalleled comfort with our premium soft cotton pillow. Each pillow is meticulously crafted with a generous filling composed of 90% high-quality feathers, designed to gently contour to the unique shape of your head and neck. This ensures that you achieve a genuinely restful and uninterrupted sleep.&nbsp;</p><p>The use of breathable materials in its design guarantees exceptional air circulation, keeping the pillow cool and offering a refreshing sleep environment all night long. Tailored with a low loft, this pillow provides ideal support, particularly for stomach sleepers who seek maximum comfort without any added strain on their neck or spine.</p>"
