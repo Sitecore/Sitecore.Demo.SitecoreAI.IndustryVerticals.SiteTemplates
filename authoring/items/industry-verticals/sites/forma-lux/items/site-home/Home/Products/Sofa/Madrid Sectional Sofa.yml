@@ -13,6 +13,10 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: SOF0006
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/87b5cec2af9b486cbb80806784647324?v=31eb32ae" dam-id="nPgzhq_5QmKoqxrehJ-rvw" width="357" height="200" alt="madrid-sectional-sofa-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79471/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: |
@@ -40,7 +44,7 @@ SharedFields:
   Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5d19516e-c952-48c1-8de4-41221e4518c5"
+  Value: "cb231a65-9d56-4606-945e-b940f3aea3b7"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -95,17 +99,17 @@ Languages:
       Value: "The Madrid Sectional Sofa by Forma Lux combines generous seating with refined design. Its L-shaped form and chaise lounge create the perfect balance of comfort, versatility, and modern style."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "49f82fea-89ab-4d9c-9503-b0e6995df95e"
+      Value: "d79f3994-7dad-409b-bd2c-2064592097e0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Madrid Sectional Sofa
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082511Z
+      Value: 20260313T094708Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Madrid Sectional Sofa offers ample seating with its L-shaped design. Upholstered in durable polyester, it’s perfect for family gatherings and movie nights. The chaise lounge adds extra comfort.</p>"

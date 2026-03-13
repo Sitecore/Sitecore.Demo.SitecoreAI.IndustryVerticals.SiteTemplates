@@ -15,7 +15,7 @@ SharedFields:
     <image mediaid="{6982D63B-8FE0-4FA7-A75D-3B0319D4B957}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "151e9ee3-d282-42d2-98fe-e01c8d8a2460"
+  Value: "a7254a52-d0bf-4a87-a7af-c8fa968607e1"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -57,38 +57,14 @@ SharedFields:
           s:par="FieldNames=%7BBF319AAE-E8FE-4CA1-805A-42ACF1349F41%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B247B3120-50DE-40C9-9B75-2AE9B3D64D6F%7D%7C%7B81F1B835-BFE4-4DDD-BE0A-155D0B4F6516%7D%7C%7B40269759-CEFD-47FB-AE35-50EB4962624D%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D"
           s:ph="/headless-main/section-wrapper-content-2/container-6/column-2-7" />
         <r
-          uid="{53C268DD-A654-4D8B-9904-57C9C1EE2A54}"
-          p:after="r[@uid='{7226407B-7BB2-4786-BC71-E7F9F4E41D2A}']"
-          s:id="{E6C8038F-B3EA-46E4-9F2C-89C562CE21F5}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B2378EBF4-F8AC-43FD-ABF3-15A1D973CC61%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=11"
-          s:ph="/headless-main/hero-banner-search-bar-5" />
-        <r
-          uid="{FE0F82B9-22B5-4AAB-9005-1CF4F5F291C6}"
-          p:after="r[@uid='{53C268DD-A654-4D8B-9904-57C9C1EE2A54}']"
-          s:id="{E6C8038F-B3EA-46E4-9F2C-89C562CE21F5}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE7159A28-87FB-406F-BBE3-25862211AC6C%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=14"
-          s:ph="/headless-main/hero-banner-search-bar-8" />
-        <r
-          uid="{CDDA080B-466F-4333-85E0-27A5A94FFF9E}"
-          p:after="r[@uid='{FE0F82B9-22B5-4AAB-9005-1CF4F5F291C6}']"
-          s:id="{E6C8038F-B3EA-46E4-9F2C-89C562CE21F5}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE7159A28-87FB-406F-BBE3-25862211AC6C%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=16"
-          s:ph="/headless-main/hero-banner-search-bar-15" />
-        <r
           uid="{D8C5342C-3517-4D10-B75F-BB88616C183B}"
-          p:after="r[@uid='{CDDA080B-466F-4333-85E0-27A5A94FFF9E}']"
+          p:after="r[@uid='{7226407B-7BB2-4786-BC71-E7F9F4E41D2A}']"
           s:id="{E6C8038F-B3EA-46E4-9F2C-89C562CE21F5}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE7159A28-87FB-406F-BBE3-25862211AC6C%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=19"
           s:ph="/headless-main/hero-banner-search-bar-17" />
         <r
-          uid="{FCF5F786-C19D-404B-942D-770E5276C0B4}"
-          p:after="r[@uid='{D8C5342C-3517-4D10-B75F-BB88616C183B}']"
-          s:id="{E6C8038F-B3EA-46E4-9F2C-89C562CE21F5}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B2378EBF4-F8AC-43FD-ABF3-15A1D973CC61%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=20"
-          s:ph="/headless-main/hero-banner-search-bar-18" />
-        <r
           uid="{58F2811B-D23A-4131-B5F0-1BA3D2B170B3}"
-          p:after="r[@uid='{FCF5F786-C19D-404B-942D-770E5276C0B4}']"
+          p:after="r[@uid='{D8C5342C-3517-4D10-B75F-BB88616C183B}']"
           s:ds="553ad18a-4327-4fa0-a5e2-86e12d013b7d"
           s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BA78F899D-FE6C-4D47-87AA-0CCC3E842167%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=17"
@@ -180,11 +156,11 @@ Languages:
       Value: Discover destinations, plan trips, and experience cultural travel with Skywings. Explore inspiring locations, manage your journeys, and embrace travel that connects you to the world.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3dd3e284-339f-4835-8b98-3742da03851f"
+      Value: "415de655-f094-425d-9a16-787de48a5939"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260131T042047Z
+      Value: 20260312T160817Z

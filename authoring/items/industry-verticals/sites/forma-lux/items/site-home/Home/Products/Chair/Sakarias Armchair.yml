@@ -17,6 +17,10 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: CHR0004
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79517-HomePageHero-2000x800?v=45234cda" dam-id="H_gcSUJbQpKr2BvPSMZQjA" width="2000" height="800" alt="sakarias-armchair-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79517/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: |
@@ -41,7 +45,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "dc483f64-3824-47cc-b6a8-720a4ef876f3"
+  Value: "3a00ee0d-8ed8-4a33-ae1a-eb838489dadc"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -50,19 +54,11 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{F637E930-4BEA-4C24-80A3-37FD4F39FA19}"
-          p:before="*"
+          uid="{19214D33-99C8-4EB0-981D-29CC0DC8BE8B}"
           s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
           s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
-          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=1&amp;Loop=0"
-          s:ph="/headless-main/sxa-product-content/related-products-2" />
-        <r
-          uid="{D014B98B-83D1-4249-8F1B-92E6D83023D1}"
-          p:after="*[1=2]"
-          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
-          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
-          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;HideAccentLine=0&amp;Autoplay=0&amp;DynamicPlaceholderId=2&amp;Loop=0"
-          s:ph="/headless-main/sxa-product-content-test/related-products-1" />
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-productcontent/related-products-1" />
       </d>
     </r>
 Languages:
@@ -111,17 +107,17 @@ Languages:
       Value: The Sakarias Armchair by Forma Lux combines contemporary design with plush comfort. Its sleek silhouette, premium upholstery, and sturdy frame create a sophisticated seating experience for any home.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "aec5e3d0-ffd5-4e67-8d57-c41f54c37e06"
+      Value: "3b3f481c-7f74-42f9-9887-826a8bc0e588"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Sakarias Armchair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082511Z
+      Value: 20260313T100540Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>Introducing the Sakarias Armchair, a perfect blend of style and comfort that elevates any living space. Crafted with precision, this armchair features a sleek design that complements both modern and traditional decor. Its sturdy frame and plush cushioning provide exceptional support and relaxation, making it the ideal spot for unwinding after a long day.</p><p>&nbsp;Experience unparalleled luxury with the Sakarias Armchair’s premium upholstery, available in a range of colors to match your personal style. Whether you're enjoying a quiet moment with a book or entertaining guests, this armchair not only meets but exceeds expectations for durability and elegance. The Sakarias Armchair is truly an exquisite addition to any home, offering both aesthetic appeal and practical comfort.</p>

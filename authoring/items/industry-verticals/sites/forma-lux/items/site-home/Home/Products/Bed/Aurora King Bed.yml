@@ -12,6 +12,10 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: BED0002
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79374-HomepagePromoCTAs-1100x740?v=7b95abec" dam-id="sLZX5duPTseD3f5CbXq8mQ" width="1100" height="740" alt="aurora-king-bed-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79374/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: |
@@ -38,7 +42,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fb71544f-0a7c-4e95-80ce-6e678af5753a"
+  Value: "26e73c7d-b33b-4b6a-a79b-ba3c313413c6"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -96,17 +100,17 @@ Languages:
       Value: Sleep in style with the Aurora King Bed by Forma Lux. A tall tufted headboard, premium velvet upholstery, and a solid wooden frame bring refined comfort and timeless elegance to your bedroom.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f4f9818e-48f3-4c33-b231-3cb7d724b6c7"
+      Value: "157e5661-3352-46a7-b293-cd0ffe92f9ac"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Aurora King Bed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082509Z
+      Value: 20260313T093224Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Aurora King Bed is designed for ultimate comfort and elegance. Its tall, tufted headboard adds a touch of grandeur, while the sturdy wooden frame ensures durability. Upholstered in premium velvet, it transforms any bedroom into a sanctuary.</p>

@@ -13,6 +13,10 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: CHR0006
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79495-LandingPageHero-2000x600?v=89641a81" dam-id="2HPszFMNS4iRsMQ4RmakWQ" width="2000" height="600" alt="oslo-lounge-chair-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79495/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: "{4644FE16-10A7-44F1-8172-CA03C35A688D}"
@@ -35,7 +39,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "27a36bd2-42a9-4a89-9f18-2456809ed80f"
+  Value: "0904503f-ef2d-406d-b6a0-b612de2dafb2"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -90,17 +94,17 @@ Languages:
       Value: The Oslo Lounge Chair by Forma Lux combines Nordic simplicity with premium comfort. Featuring a solid oak frame and plush linen cushions, it’s a timeless addition to modern interiors.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "98afc491-375d-42bb-a399-b56dfe97d1d9"
+      Value: "1d5a536d-e94b-467f-a233-183fdd3282df"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\jeral.sandeeptha@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Oslo Lounge Chair
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082511Z
+      Value: 20260313T100250Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: <p>The Oslo Lounge Chair blends minimalist Nordic design with modern comfort. Crafted from solid oak and upholstered in premium linen, it offers a timeless silhouette that fits seamlessly into any living space. Its ergonomic backrest and deep seat make it perfect for long hours of relaxation.</p>

@@ -12,6 +12,10 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: BED0001
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79363-HomepagePromoCTAs-1100x740?v=166bc622" dam-id="v6LssTd4QcmFIYND3nogVQ" width="1100" height="740" alt="aspen-bed-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79363/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: |
@@ -40,7 +44,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fa801370-687a-42e0-8e5c-3e705f0258a1"
+  Value: "e5e9abd6-2c0d-4ae9-88be-b853ffbdd803"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -95,17 +99,17 @@ Languages:
       Value: "Discover the Aspen Bunk Bed by Forma Lux – a durable pine-wood design with natural finish, safety rails, and built-in ladder. The perfect blend of craftsmanship, safety, and timeless style for shared or guest bedrooms."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "99927b7a-b68e-4ffe-b8e7-9034b8b0d178"
+      Value: "2a46f220-4a33-4e92-adcc-cc3af0c46895"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Aspen Bunk Bed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082509Z
+      Value: 20260313T093134Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Aspen Bunk Bed is crafted from durable pine wood and finished in a natural tone. With safety rails and a built-in ladder, it’s designed for both safety and style. Ideal for shared bedrooms or sleepovers.</p>"

@@ -12,6 +12,10 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: LMP0003
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/85c0a75e051d42c081d511e129285d26?v=39c0cf97" dam-id="J3dnF-53QWqm2midoIzd1A" width="736" height="739" alt="capr-table-lamp-1.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79386/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: |
@@ -35,7 +39,7 @@ SharedFields:
   Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b911dae6-0a2d-4d7f-9f10-164602e1eb11"
+  Value: "7dc91a77-5115-4821-a6b0-4cfd5d3a355c"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -90,17 +94,17 @@ Languages:
       Value: "The Capri Table Lamp by Forma Lux features a hand-glazed ceramic base and neutral linen shade — a versatile lighting piece that adds warmth and elegance to any room."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6766f6ad-2586-43b3-930d-46bdaf8a6a72"
+      Value: "f59eee68-0ded-4531-ba14-28a46e499929"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Capri Table Lamp
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082509Z
+      Value: 20260313T093641Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Capri Table Lamp adds warmth and charm to any space. Its hand-glazed ceramic base paired with a neutral linen shade makes it versatile for bedrooms and living rooms.</p>"

@@ -12,6 +12,10 @@ SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
   Value: BED0003
+- ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
+  Hint: ogImage
+  Value: |
+    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79409-HomepagePromoCTAs-1100x740?v=cd26fce9" dam-id="WqigNgHRSc2gyo7cHWlZ_w" width="1100" height="740" alt="hudson-storage-bed-1.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79409/thumbnail" />
 - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
   Hint: Color
   Value: |
@@ -38,7 +42,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8567d024-9f44-41c0-a424-633d10fb0554"
+  Value: "973bfe4a-d831-414a-8d6e-403651d450e9"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -93,17 +97,17 @@ Languages:
       Value: "Discover the Hudson Storage Bed by Forma Lux – crafted from engineered wood with walnut veneer, featuring four spacious under-bed drawers for elegant, space-saving living."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "047599b8-56a9-4771-8d29-c2452ef1ac3c"
+      Value: "2c16c34b-a012-46c4-ba2c-9b15909e5456"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
       Value: Hudson Storage Bed
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082509Z
+      Value: 20260313T093310Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: "<p>The Hudson Storage Bed maximizes space with its four under-bed drawers. Crafted from engineered wood with a walnut veneer, it combines practicality with style. Ideal for apartments and compact bedrooms.</p>"
