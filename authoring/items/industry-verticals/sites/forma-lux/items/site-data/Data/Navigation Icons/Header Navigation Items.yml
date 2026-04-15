@@ -4,10 +4,13 @@ Parent: "7a2bb670-2048-43bf-a4eb-a59d64f01f11"
 Template: "9baa006b-188e-42ef-8f5c-5f623395ed7d"
 Path: "/sitecore/content/industry-verticals/forma-lux/Data/Navigation Icons/Header Navigation Items"
 SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "810bc13a-579c-41eb-928f-c09df49d4c8c"
 - ID: "f4d4d1d7-9afb-43e6-833e-9bb3a6a4d233"
   Hint: CheckoutPage
   Value: |
-    <link class="" id="f91dacac-c5bf-4539-94a3-6e5f2187e152" querystring="" anchor="" target="" title="" linktype="internal" text="Aller à la caisse" url="/industry-verticals/forma-lux/Home/Checkout" />
+    <link linktype="internal" id="f91dacac-c5bf-4539-94a3-6e5f2187e152" anchor="" querystring="" target="" class="" text="Go to the checkout" title=""/>
 Languages:
 - Language: en
   Versions:
@@ -29,14 +32,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8261c4b2-c50a-49a6-adbe-02d14d349fd5"
+      Value: "f52ce436-372f-4354-a9be-35a5620bcac1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\sanduni.galagoda@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T103506Z
+      Value: 20260410T124930Z
 - Language: "es-ES"
   Versions:
   - Version: 1
