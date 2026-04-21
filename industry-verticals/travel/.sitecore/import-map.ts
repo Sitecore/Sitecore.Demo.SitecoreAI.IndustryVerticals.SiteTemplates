@@ -23,6 +23,7 @@ import { useSearchParams, usePathname, useRouter } from 'next/navigation';
 import QuestionsAnswers from 'src/components/non-sitecore/search/QuestionsAnswers';
 import SearchResultsWidget from 'src/components/non-sitecore/search/SearchResultsComponent';
 import { SEARCH_WIDGET_ID, HIGHLIGHTED_ARTICLES_RFKID, DEFAULT_IMG_URL, PREVIEW_WIDGET_ID, HOMEHIGHLIGHTED_WIDGET_ID, DESTINATIONS_WIDGET_ID } from '@/constants/search';
+import Script from 'next/script';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/shadcn/components/ui/dropdown-menu';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
@@ -54,6 +55,9 @@ import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { Drawer, DrawerTrigger, DrawerContent, DrawerClose } from '@/shadcn/components/ui/drawer';
 import { DatePicker } from '@/shadcn/components/ui/date-picker';
 import PreviewSearch_938f3b0320996fc3fe6ab3d953daf2e708e085ca from 'src/components/non-sitecore/search/PreviewSearch';
+import { useUser } from '@auth0/nextjs-auth0/client';
+import { trackAuthEvent } from '@/lib/auth-events';
+import { event, identity, pageView } from '@sitecore-cloudsdk/events/browser';
 import DestinationCard from 'src/components/non-sitecore/DestinationCard';
 import FilterDropdown from 'src/components/non-sitecore/search/FilterDropdown';
 import SocialShare from 'src/components/non-sitecore/SocialShare';
@@ -64,7 +68,6 @@ import { DestinationLinkedContent } from 'src/components/non-sitecore/Destinatio
 import client from 'lib/sitecore-client';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
 import nextConfig from 'next.config';
-import { pageView } from '@sitecore-cloudsdk/events/browser';
 import config from 'sitecore.config';
 import { newsDateFormatter as newsDateFormatter_77fef27f114da656b11a70d96f9a0ef7725fc8c6 } from 'src/helpers/dateHelper';
 import { Author } from 'src/components/non-sitecore/Author';
@@ -206,6 +209,12 @@ const importMap = [
       { name: 'PREVIEW_WIDGET_ID', value: PREVIEW_WIDGET_ID },
       { name: 'HOMEHIGHLIGHTED_WIDGET_ID', value: HOMEHIGHLIGHTED_WIDGET_ID },
       { name: 'DESTINATIONS_WIDGET_ID', value: DESTINATIONS_WIDGET_ID },
+    ]
+  },
+  {
+    module: 'next/script',
+    exports: [
+      { name: 'default', value: Script },
     ]
   },
   {
@@ -442,6 +451,26 @@ const importMap = [
     ]
   },
   {
+    module: '@auth0/nextjs-auth0/client',
+    exports: [
+      { name: 'useUser', value: useUser },
+    ]
+  },
+  {
+    module: '@/lib/auth-events',
+    exports: [
+      { name: 'trackAuthEvent', value: trackAuthEvent },
+    ]
+  },
+  {
+    module: '@sitecore-cloudsdk/events/browser',
+    exports: [
+      { name: 'event', value: event },
+      { name: 'identity', value: identity },
+      { name: 'pageView', value: pageView },
+    ]
+  },
+  {
     module: 'src/components/non-sitecore/DestinationCard',
     exports: [
       { name: 'default', value: DestinationCard },
@@ -499,12 +528,6 @@ const importMap = [
     module: 'next.config',
     exports: [
       { name: 'default', value: nextConfig },
-    ]
-  },
-  {
-    module: '@sitecore-cloudsdk/events/browser',
-    exports: [
-      { name: 'pageView', value: pageView },
     ]
   },
   {

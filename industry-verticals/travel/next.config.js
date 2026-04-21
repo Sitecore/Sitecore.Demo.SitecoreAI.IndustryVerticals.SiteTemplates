@@ -7,6 +7,15 @@ const nextConfig = {
   // Allow specifying a distinct distDir when concurrently running app in a container
   distDir: process.env.NEXTJS_DIST_DIR || '.next',
 
+  /**
+   * Auth0 (and other secrets in .env.local) are not reliably available in Edge Middleware.
+   * Node middleware can read server-side env vars so /auth/* routes work with @auth0/nextjs-auth0 v4.
+   * @see https://nextjs.org/blog/next-15-5
+   */
+  experimental: {
+    nodeMiddleware: true,
+  },
+
   i18n: {
     // These are all the locales you want to support in your application.
     // These should generally match (or at least be a subset of) those in Sitecore.
@@ -40,6 +49,11 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'starter-verticals-2.sitecoresandbox.cloud',
+        port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: '*.sitecoresandbox.cloud',
         port: '',
       },
       {

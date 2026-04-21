@@ -1,25 +1,25 @@
 @theme {
-  --color-foreground: #101828;
-  --color-foreground-light: #364153;
-  --color-foreground-muted: #4a5565;
+  --color-foreground: #1b1815;
+  --color-foreground-light: #4e453b;
+  --color-foreground-muted: #6f655a;
 
-  --color-background: #fff;
-  --color-background-accent: #eff6ff;
-  --color-background-muted: #f9fafb;
-  --color-background-surface: #f5f5f5;
-  --color-background-hover: #ececec;
+  --color-background: #fcfaf7;
+  --color-background-accent: #f3ede3;
+  --color-background-muted: #f7f3ed;
+  --color-background-surface: #efe8de;
+  --color-background-hover: #e4dbce;
 
-  --color-accent: #155dfc;
-  --color-accent-light: #bedbff;
-  --color-accent-midlight: #51a2ff;
-  --color-accent-dark: #193cb8;
-  --color-accent-gray: #99a1af;
+  --color-accent: #8d6e3b;
+  --color-accent-light: #e8dcc6;
+  --color-accent-midlight: #b4945f;
+  --color-accent-dark: #6c532f;
+  --color-accent-gray: #a89a85;
 
-  --color-success: #2ec1ac;
-  --color-danger: #e7000b;
+  --color-success: #2f8f7a;
+  --color-danger: #b42318;
 
-  --color-border: #e5e5e5;
-  --color-label: #364153;
+  --color-border: #d9d0c4;
+  --color-label: #4e453b;
 
   --font-heading: 'Open Sans', sans-serif;
   --font-body: 'Open Sans', sans-serif;

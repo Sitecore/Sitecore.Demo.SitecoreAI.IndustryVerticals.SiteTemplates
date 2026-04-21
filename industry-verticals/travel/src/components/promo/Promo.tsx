@@ -76,3 +76,22 @@ export const Default = (props: PromoProps): JSX.Element => {
     </section>
   );
 };
+
+export const ImageOnly = (props: PromoProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+
+  return (
+    <section className={`${props.params.styles || ''} py-2`} id={id ? id : undefined}>
+      <div className="container">
+        <div className="overflow-hidden rounded-lg">
+          <ContentSdkImage
+            field={props.fields.PromoImageOne}
+            className="h-full w-full object-cover"
+            width={1200}
+            height={675}
+          />
+        </div>
+      </div>
+    </section>
+  );
+};

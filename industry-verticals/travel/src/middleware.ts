@@ -1,4 +1,4 @@
-import { type NextRequest, type NextFetchEvent } from 'next/server';
+import { type NextRequest, type NextFetchEvent, NextResponse } from 'next/server';
 import {
   defineMiddleware,
   MultisiteMiddleware,
@@ -7,6 +7,24 @@ import {
 } from '@sitecore-content-sdk/nextjs/middleware';
 import sites from '.sitecore/sites.json';
 import scConfig from 'sitecore.config';
+import { auth0, getMissingAuth0EnvKeys } from './lib/auth0';
+import { trackAuthEvent } from './lib/auth-events';
+
+/** Must match `i18n.locales` in `next.config.js` (longer codes first). */
+const I18N_LOCALES = ['fr-FR', 'es-ES', 'en'] as const;
+
+function normalizePathname(pathname: string): string {
+  for (const locale of I18N_LOCALES) {
+    const prefix = `/${locale}`;
+    if (pathname === prefix) {
+      return '/';
+    }
+    if (pathname.startsWith(`${prefix}/`)) {
+      return pathname.slice(prefix.length) || '/';
+    }
+  }
+  return pathname;
+}
 
 const multisite = new MultisiteMiddleware({
   /**
@@ -49,10 +67,42 @@ const personalize = new PersonalizeMiddleware({
 });
 
 export function middleware(req: NextRequest, ev: NextFetchEvent) {
+  const pathname = normalizePathname(req.nextUrl.pathname);
+
+  if (pathname.startsWith('/auth')) {
+    if (!auth0) {
+      return NextResponse.json(
+        {
+          error: 'Auth0 is not configured. Please set required environment variables.',
+          missingEnvKeys: getMissingAuth0EnvKeys(),
+          hint: 'Ensure industry-verticals/travel/.env.local defines all keys, then restart dev server. For Edge-only middleware, use Node middleware (experimental.nodeMiddleware in next.config.js).',
+        },
+        { status: 503 }
+      );
+    }
+
+    if (pathname === '/auth/login') {
+      trackAuthEvent({
+        type: 'login_initiated',
+        path: req.nextUrl.pathname,
+      });
+    }
+
+    if (pathname === '/auth/logout') {
+      trackAuthEvent({
+        type: 'logout_initiated',
+        path: req.nextUrl.pathname,
+      });
+    }
+
+    return auth0.middleware(req);
+  }
+
   return defineMiddleware(multisite, redirects, personalize).exec(req, ev);
 }
 
 export const config = {
+  runtime: 'nodejs',
   /*
    * Match all paths except for:
    * 1. /api routes

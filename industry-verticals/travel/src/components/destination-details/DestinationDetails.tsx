@@ -1,5 +1,11 @@
 import { ComponentProps } from '@/lib/component-props';
-import { NextImage as Image, Text, RichText, useSitecore } from '@sitecore-content-sdk/nextjs';
+import {
+  NextImage as Image,
+  Text,
+  RichText,
+  Placeholder,
+  useSitecore,
+} from '@sitecore-content-sdk/nextjs';
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
 import SocialShare from '../non-sitecore/SocialShare';
@@ -15,10 +21,11 @@ interface DestinationDetailsProps extends ComponentProps {
   fields: DestinationFields;
 }
 
-export const Default = ({ params, fields }: DestinationDetailsProps) => {
+export const Default = ({ params, fields, rendering }: DestinationDetailsProps) => {
   const { page } = useSitecore();
   const [currentUrl, setCurrentUrl] = useState('');
-  const { styles, RenderingIdentifier: id } = params;
+  const { styles, RenderingIdentifier: id, DynamicPlaceholderId } = params;
+  const destinationDetailsContentPlaceholderKey = `destination-details-content-${DynamicPlaceholderId}`;
   const isPageEditing = page.mode.isEditing;
   const { t } = useI18n();
 
@@ -89,6 +96,7 @@ export const Default = ({ params, fields }: DestinationDetailsProps) => {
             <h1 className="text-background">
               <Text field={fields.Title} />
             </h1>
+
             <p className="text-background-muted/90 text-xl">
               <Text field={fields.Country} />
             </p>
@@ -107,6 +115,9 @@ export const Default = ({ params, fields }: DestinationDetailsProps) => {
                 <div className="rich-text ck-content">
                   <RichText field={fields.Content} />
                 </div>
+              </div>
+              <div className="container">
+                <Placeholder name={destinationDetailsContentPlaceholderKey} rendering={rendering} />
               </div>
               <DestinationHighlights highlights={fields.Highlights} />
               <DestinationLinkedContent destination={fields} />
