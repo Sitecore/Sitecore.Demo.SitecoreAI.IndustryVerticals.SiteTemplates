@@ -46,10 +46,13 @@ import * as Header from 'src/components/header/Header';
 import * as Footer from 'src/components/footer/Footer';
 import * as Features from 'src/components/features/Features';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
+import * as HeaderContainer from 'src/components/container/Header-Container';
 import * as Container from 'src/components/container/Container';
+import * as Accordion from 'src/components/container/Accordion';
 import * as ContactForm from 'src/components/contact-form/ContactForm';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
 import * as Breadcrumb from 'src/components/breadcrumb/Breadcrumb';
+import * as ASHero from 'src/components/as-hero/ASHero';
 import * as ArticleListing from 'src/components/article-listing/ArticleListing';
 import * as ArticleDetails from 'src/components/article-details/ArticleDetails';
 import * as AllProductsCarousel from 'src/components/all-products-carousel/AllProductsCarousel';
@@ -100,10 +103,13 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Footer', { ...Footer }],
   ['Features', { ...Features }],
   ['ContentBlock', { ...ContentBlock }],
+  ['Header-Container', { ...HeaderContainer }],
   ['Container', { ...Container }],
+  ['Accordion', { ...Accordion }],
   ['ContactForm', { ...ContactForm, componentType: 'client' }],
   ['ColumnSplitter', { ...ColumnSplitter }],
   ['Breadcrumb', { ...Breadcrumb }],
+  ['ASHero', { ...ASHero }],
   ['ArticleListing', { ...ArticleListing }],
   ['ArticleDetails', { ...ArticleDetails }],
   ['AllProductsCarousel', { ...AllProductsCarousel }],

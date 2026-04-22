@@ -1,5 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { Default as Promo, WithFullImage, PromoProps, WithQuote } from '../components/promo/Promo';
+import {
+  Default as Promo,
+  WithFullImage,
+  PromoProps,
+  WithQuote,
+  ImageWithBottomTitle,
+} from '../components/promo/Promo';
 import { CommonParams, CommonRendering } from './common/commonData';
 import {
   createImageField,
@@ -157,5 +163,25 @@ export const QuotePromo: Story = {
       styles: promoStyles,
     };
     return <WithQuote params={params} rendering={baseRendering} fields={baseFields} />;
+  },
+};
+
+export const ImageWithBottomTitlePromo: Story = {
+  argTypes: {
+    ShowMultipleImages: { table: { disable: true } },
+    HideCurveLine: { table: { disable: true } },
+    HideShapes: { table: { disable: true } },
+    HideShadows: { table: { disable: true } },
+    HideQuote: { table: { disable: true } },
+  },
+  render: (args) => {
+    const promoStyles = clsx(baseParams.styles, args.BackgroundColor);
+
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+    };
+
+    return <ImageWithBottomTitle params={params} rendering={baseRendering} fields={baseFields} />;
   },
 };
