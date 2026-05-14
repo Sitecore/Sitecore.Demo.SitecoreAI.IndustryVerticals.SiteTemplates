@@ -41,6 +41,30 @@ export const topLevelPages = [
       {
         ...createNavItem('Our story'),
         Styles: ['level2', 'item0', 'odd', 'first'],
+        Children: [
+          {
+            ...createNavItem('History'),
+            Styles: ['level3', 'item0', 'odd', 'first'],
+            Children: [
+              {
+                ...createNavItem('Archives'),
+                Styles: ['level4', 'item0', 'odd', 'first'],
+              },
+              {
+                ...createNavItem('Timeline'),
+                Styles: ['level4', 'item1', 'even', 'last'],
+              },
+            ],
+          },
+          {
+            ...createNavItem('Mission'),
+            Styles: ['level3', 'item1', 'even'],
+          },
+          {
+            ...createNavItem('Press'),
+            Styles: ['level3', 'item2', 'odd', 'last'],
+          },
+        ],
       },
       {
         ...createNavItem('Our team'),

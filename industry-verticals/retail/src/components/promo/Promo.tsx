@@ -269,3 +269,28 @@ export const WithQuote = (props: PromoProps): JSX.Element => {
     </section>
   );
 };
+
+export const ImageWithBottomTitle = (props: PromoProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+
+  return (
+    <section className={`${props.params.styles} py-20`} id={id ? id : undefined}>
+      <div className="container flex justify-center">
+        <Link
+          field={props.fields.PromoMoreInfo}
+          className="group relative block aspect-[4/3] w-full max-w-xl overflow-hidden rounded-2xl"
+        >
+          <ContentSdkImage
+            field={props.fields.PromoImageOne}
+            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+          />
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-4">
+            <p className="text-base font-semibold text-white md:text-lg">
+              <Text field={props.fields.PromoTitle} />
+            </p>
+          </div>
+        </Link>
+      </div>
+    </section>
+  );
+};

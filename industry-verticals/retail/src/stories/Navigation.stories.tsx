@@ -58,7 +58,7 @@ const meta = {
       const chevron = canvasElement.querySelector('.navigation-dropdown-trigger');
       if (chevron) {
         await userEvent.click(chevron);
-        const dropdown = chevron.closest('li')?.querySelector('ul');
+        const dropdown = chevron.closest('li')?.querySelector('[data-navigation-dropdown]');
         expect(dropdown).toBeInTheDocument();
 
         await waitFor(() => {
